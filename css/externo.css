@@ -1,0 +1,41 @@
+* {
+    color: yellow ;
+    background-color: #A45151;
+}
+
+/*Selector2 tipo de Elemento*/
+/*afecta a todos los elementos h1*/
+h1 {
+    color: blue;
+}
+
+p {
+    font-size: 17px;
+}
+
+ /*Selector3 de Clase*/
+.clase1 {
+    color: rgb(201, 41, 174);
+}
+
+/*Selector4 por ID*/
+#idsubtitulo{
+    font-size: 20px;
+    color: goldenrod;
+}
+
+ /*Selector5 por Atributo*/
+a[href]{
+    color: rgb(226, 125, 43);
+}
+
+/*Segunda Variación*/
+a[href*=".ec"]{
+    color: #e912d7;
+}
+
+/*Selector6 por pseudo-clase*/
+label:hover{
+    color: red;
+    background-color: aqua;
+}
