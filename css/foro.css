@@ -1,0 +1,58 @@
+.menu li {
+    list-style: none;
+    display: inline-block;
+    border: 2px outset #FF5733;
+    border-radius: 10px;
+    margin: 5px 20px;
+    padding: 10px;
+}
+
+.cabecera h1 {
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: #2E4053;
+}
+
+.menu {
+    background-color: #FFA07A;
+    text-align: left;
+}
+
+/*h1,h3 {
+    color: red;
+}*/
+
+/*Poniendo explícitamente el display a los elementos principales*/ 
+header,section,footer,aside,nav, article {
+    display: block;
+}
+
+body {
+    text-align: center;
+    background-color: #FDEBD0;
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.es%2Ffotos-vectores-gratis%2Ffondos-deportivos&psig=AOvVaw2JkzojGLUO6m9YjT-rhy07&ust=1684542522435000&source=images&cd=vfe&ved=0CA4QjRxqFwoTCJDWzY-QgP8CFQAAAAAdAAAAABAE");
+}
+
+.formulario {
+    width: 900px;
+    border: 2px double black;
+    margin: 15px;
+    padding: 0px 10px 20px 10px;
+}
+
+.seccion {
+    margin: 20px;
+    width: 600px;
+    /*estilo float sirve para que no tomen 
+    a estos elementos 
+    y queden flotando dentro del DOM*/
+    float: left;
+}
+
+article {
+    border: 1px solid black;
+    padding: 20px; 
+    margin-bottom: 20px;
+    background-color:#EBDEF0;
+}
