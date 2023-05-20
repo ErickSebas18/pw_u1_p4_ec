@@ -31,13 +31,12 @@ header,section,footer,aside,nav, article {
 body {
     text-align: center;
     background-color: #FDEBD0;
-    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.es%2Ffotos-vectores-gratis%2Ffondos-deportivos&psig=AOvVaw2JkzojGLUO6m9YjT-rhy07&ust=1684542522435000&source=images&cd=vfe&ved=0CA4QjRxqFwoTCJDWzY-QgP8CFQAAAAAdAAAAABAE");
 }
 
 .formulario {
     width: 900px;
     border: 2px double black;
-    margin: 15px;
+    margin: 15px auto;
     padding: 0px 10px 20px 10px;
 }
 
@@ -55,4 +54,26 @@ article {
     padding: 20px; 
     margin-bottom: 20px;
     background-color:#EBDEF0;
+}
+
+.referencias {
+    width: 200px;
+    float: left;
+    border: dashed 3px black;
+    margin-top: 225px;
+    margin-left: 25px;
+}
+
+article footer {
+    text-align: right;
+    color: #FF5733;
+}
+
+.pie {
+    clear: both;
+}
+
+article img {
+    width: 350px;
+    height: 200px;
 }
