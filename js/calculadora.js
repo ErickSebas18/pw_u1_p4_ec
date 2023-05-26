@@ -24,7 +24,9 @@ function dividirNumeros() {
 }
 
 function eliminarElemento() {
-    document.getElementById('ideliminar').remove;
+    document.getElementById('ideliminar').remove();
+    console.log(document.getElementById('ideliminar'))
+    console.log('test')
 }
 
 function insertarElemento() {
