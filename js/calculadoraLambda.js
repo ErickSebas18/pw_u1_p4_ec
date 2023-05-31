@@ -1,5 +1,6 @@
 const sumar = (num1, num2) => num1 + num2;
 
+
 const convertir = (idCampo) => {
   console.log("Convertir " + idCampo);
   return parseInt(document.getElementById(idCampo).value);
