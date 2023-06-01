@@ -33,7 +33,7 @@ function resultado() {
         }
 
         case '-': {
-            document.getElementById('idResultado').value = (num1 - num2);
+            document.getElementById('idResultado').value = (num2 - num1);
             inicializar();
             break;
         }
